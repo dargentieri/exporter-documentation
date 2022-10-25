@@ -4559,7 +4559,7 @@ h1,h2,h3,h4,h5,h6{
     color:var(--headingInk);
     line-height:1.5;
     margin-top:32px;
-    margin-bottom:12px
+    margin-bottom:12px;
     font-family:Jost !important;
 }
 h1{
@@ -4596,7 +4596,7 @@ section p,section blockquote,div.alert,ul,li{
     color:var(--colorInkPrimary);
     font-size:16px;
     font-weight:400;
-    line-height:24px
+    line-height:24px;
    font-family:Jost !important;
 }
 .text-muted{
