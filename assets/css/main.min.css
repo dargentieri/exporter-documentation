@@ -4556,7 +4556,6 @@ ol>li::marker{
     font-weight:bold
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: "Jost" !important;
     color:var(--headingInk);
     line-height:1.5;
     margin-top:32px;
@@ -4597,7 +4596,6 @@ section p,section blockquote,div.alert,ul,li{
     font-size:16px;
     font-weight:400;
     line-height:24px;
-    font-family:"Jost" !important;
 }
 .text-muted{
     color:var(--colorInkSecondary) !important
