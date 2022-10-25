@@ -321,6 +321,9 @@
 .text-11{
     font-size:2.75rem !important
 }
+h1,p {
+  font-family:"Jost" !important;
+}
 @media (max-width: 992px){
     .text-11{
         font-size:calc(1.4rem + 2.1774193548vw) !important
