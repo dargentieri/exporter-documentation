@@ -5977,6 +5977,11 @@ select.form-control:not([size]):not([multiple]):not(.form-control-sm){
         padding:0 0.75rem
     }
 }
-body, html{
-	font-family:"Jost"
+h1,h2,h3
+{
+  font-family:Jost !important;
+}
+p
+{
+  font-family:Jost !important;
 }
