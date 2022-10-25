@@ -4560,6 +4560,7 @@ h1,h2,h3,h4,h5,h6{
     line-height:1.5;
     margin-top:32px;
     margin-bottom:12px
+    font-family:Jost !important;
 }
 h1{
     margin-top:48px;
@@ -4596,6 +4597,7 @@ section p,section blockquote,div.alert,ul,li{
     font-size:16px;
     font-weight:400;
     line-height:24px
+   font-family:Jost !important;
 }
 .text-muted{
     color:var(--colorInkSecondary) !important
@@ -5976,12 +5978,4 @@ select.form-control:not([size]):not([multiple]):not(.form-control-sm){
     .input-group>.input-group-append>.btn,.input-group>.input-group-prepend>.btn{
         padding:0 0.75rem
     }
-}
-h1,h2,h3
-{
-  font-family:Jost !important;
-}
-p
-{
-  font-family:Jost !important;
 }
