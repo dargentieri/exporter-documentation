@@ -38,6 +38,11 @@ $(document).ready(function() {
     loadSandboxes(sandboxConfigUrl)
 });
 </script>
+<script>
+  var path = window.location.pathname;
+  var page = path.split("/").pop();
+  console.log( page );
+</script>
 
 
 {* Add intercom if key was provided *}
