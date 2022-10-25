@@ -321,7 +321,7 @@
 .text-11{
     font-size:2.75rem !important
 }
-h1,h2,h3,p,li,a {
+h1,h2,h3,h4,h5,p,li,a {
   font-family:"Jost" !important;
 }
 @media (max-width: 992px){
