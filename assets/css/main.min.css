@@ -1,100 +1,146 @@
-@font-face{
-    font-family:'Source Code Pro';
-    src:url(src/source-code-pro/SourceCodePro-Black.woff2) format('woff2'),url(src/source-code-pro/SourceCodePro-Black.woff) format('woff');
-    font-weight:900;
-    font-style:normal;
-    font-display:swap
+/* JOST* */
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-100.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
 }
-@font-face{
-    font-family:'Source Code Pro';
-    src:url(src/source-code-pro/SourceCodePro-It.woff2) format('woff2'),url(src/source-code-pro/SourceCodePro-It.woff) format('woff');
-    font-weight:400;
-    font-style:italic;
-    font-display:swap
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-200.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
 }
-@font-face{
-    font-family:'Source Code Pro';
-    src:url(src/source-code-pro/SourceCodePro-ExtraLightIt.woff2) format('woff2'),url(src/source-code-pro/SourceCodePro-ExtraLightIt.woff) format('woff');
-    font-weight:200;
-    font-style:italic;
-    font-display:swap
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-300.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
-@font-face{
-    font-family:'Source Code Pro';
-    src:url(src/source-code-pro/SourceCodePro-ExtraLight.woff2) format('woff2'),url(src/source-code-pro/SourceCodePro-ExtraLight.woff) format('woff');
-    font-weight:200;
-    font-style:normal;
-    font-display:swap
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-400.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
-@font-face{
-    font-family:'Source Code Pro';
-    src:url(src/source-code-pro/SourceCodePro-Regular.woff2) format('woff2'),url(src/source-code-pro/SourceCodePro-Regular.woff) format('woff');
-    font-weight:400;
-    font-style:normal;
-    font-display:swap
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-500.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
-@font-face{
-    font-family:'Source Code Pro';
-    src:url(src/source-code-pro/SourceCodePro-BoldIt.woff2) format('woff2'),url(src/source-code-pro/SourceCodePro-BoldIt.woff) format('woff');
-    font-weight:700;
-    font-style:italic;
-    font-display:swap
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-600.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
 }
-@font-face{
-    font-family:'Source Code Pro';
-    src:url(src/source-code-pro/SourceCodePro-Light.woff2) format('woff2'),url(src/source-code-pro/SourceCodePro-Light.woff) format('woff');
-    font-weight:300;
-    font-style:normal;
-    font-display:swap
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-700.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
-@font-face{
-    font-family:'Source Code Pro';
-    src:url(src/source-code-pro/SourceCodePro-SemiboldIt.woff2) format('woff2'),url(src/source-code-pro/SourceCodePro-SemiboldIt.woff) format('woff');
-    font-weight:600;
-    font-style:italic;
-    font-display:swap
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-800.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
 }
-@font-face{
-    font-family:'Source Code Pro';
-    src:url(src/source-code-pro/SourceCodePro-MediumIt.woff2) format('woff2'),url(src/source-code-pro/SourceCodePro-MediumIt.woff) format('woff');
-    font-weight:500;
-    font-style:italic;
-    font-display:swap
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-900.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
 }
-@font-face{
-    font-family:'Source Code Pro';
-    src:url(src/source-code-pro/SourceCodePro-Bold.woff2) format('woff2'),url(src/source-code-pro/SourceCodePro-Bold.woff) format('woff');
-    font-weight:700;
-    font-style:normal;
-    font-display:swap
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-100-Italic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
 }
-@font-face{
-    font-family:'Source Code Pro';
-    src:url(src/source-code-pro/SourceCodePro-Medium.woff2) format('woff2'),url(src/source-code-pro/SourceCodePro-Medium.woff) format('woff');
-    font-weight:500;
-    font-style:normal;
-    font-display:swap
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-200-Italic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
 }
-@font-face{
-    font-family:'Source Code Pro';
-    src:url(src/source-code-pro/SourceCodePro-LightIt.woff2) format('woff2'),url(src/source-code-pro/SourceCodePro-LightIt.woff) format('woff');
-    font-weight:300;
-    font-style:italic;
-    font-display:swap
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-300-Italic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
 }
-@font-face{
-    font-family:'Source Code Pro';
-    src:url(src/source-code-pro/SourceCodePro-BlackIt.woff2) format('woff2'),url(src/source-code-pro/SourceCodePro-BlackIt.woff) format('woff');
-    font-weight:900;
-    font-style:italic;
-    font-display:swap
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-400-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
 }
-@font-face{
-    font-family:'Source Code Pro';
-    src:url(src/source-code-pro/SourceCodePro-Semibold.woff2) format('woff2'),url(src/source-code-pro/SourceCodePro-Semibold.woff) format('woff');
-    font-weight:600;
-    font-style:normal;
-    font-display:swap
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-500-Italic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-600-Italic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-700-Italic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-800-Italic.ttf") format("truetype");
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url("assets/css/fonts/Jost-900-Italic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
 }
 /*# sourceMappingURL=/sm/cf804647f65a3f8d5daff1bcf5dec5e32401ea19688a2db0e7e0331d1bd9f763.map */
 
@@ -3991,7 +4037,7 @@ a.custom-property-link:hover{
     align-items:center
 }
 .CodeMirror-scroll,.CodeMirror-sizer,.CodeMirror-gutter,.CodeMirror-gutters,.CodeMirror-linenumber{
-    font-family:"Source Code Pro", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family:"Jost", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     font-size:12px;
     font-weight:400;
     line-height:20px;
