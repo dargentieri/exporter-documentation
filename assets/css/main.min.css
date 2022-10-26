@@ -209,7 +209,7 @@
     --leftNavItemHoverBackground: var(--colorBackgroundAlt);
     --leftNavItemHoverBackgroundAlt: var(--colorNeutral300);
     --leftNavItemHoverInk: var(--leftNavInk);
-    --leftNavItemActiveBackground: var(--colorTokensBackgroundPrimary10Bg);
+    --leftNavItemActiveBackground: var(--colorPaletteUtilityGray100);
     --leftNavItemActiveInk: var(--colorTokensBackgroundSecondary100Bg);
     --leftNavInkTab: var(--colorInkSecondary);
     --leftNavInkSection: var(--colorInkSecondary);
