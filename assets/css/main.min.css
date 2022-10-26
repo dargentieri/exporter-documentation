@@ -214,7 +214,7 @@
     --leftNavInkTab: var(--colorInkSecondary);
     --leftNavInkSection: var(--colorInkSecondary);
     --leftNavElevation: none;
-    --ctaButtonBackground: var(--colorAccent);
+    --ctaButtonBackground: var(--colorTokensBackgroundSecondary100Bg);
     --ctaButtonBackgroundHover: var(--colorAccentDark);
     --ctaButtonInk: var(--colorWhite);
     --spacingBlockAfter: 24px;
