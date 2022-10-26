@@ -1,3 +1,4 @@
+@import "colors.css"; 
 /* JOST* */
 @font-face {
     font-family: "Jost";
@@ -154,7 +155,7 @@
     --colorNeutral600: #6e747e;
     --colorNeutral700: #666e7a;
     --colorNeutral800: #313f4d;
-    --colorNeutral900: #005366;
+    --colorNeutral900: var(--colorPaletteBrandPrimaryPrimary100);
     --colorRed100: #fff5f5;
     --colorRed500: #d23031;
     --colorRed700: #C13F39;
