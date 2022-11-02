@@ -979,14 +979,12 @@ h1,h2,h3,h4,h5,p,li,a {
     height:60px;
     z-index:1;
     border-top:1px solid var(--leftNavBorderColor);
-    display:flex;
     align-content:center;
     justify-content:center;
     align-items:center;
     background-color:var(--leftNavBackground)
 }
 .nav-sn a{
-    display:flex;
     padding:4px 12px;
     border-radius:var(--borderRadiusDefault);
     height:32px;
