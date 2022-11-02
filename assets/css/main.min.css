@@ -166,9 +166,9 @@
     --colorBackgroundAlt: var(--colorNeutral200);
     --colorBorderColorProminent: var(--colorNeutral400);
     --colorBorderColorSubtle: var(--colorNeutral200);
-    --colorAccent: #0f62fe;
-    --colorAccentDark: #0043ce;
-    --colorAccentSurface: #ecf4ff;
+    --colorAccent: var(--colorPaletteBrandPrimaryPrimary100);
+    --colorAccentDark: var(--colorPaletteBrandPrimaryPrimary100);
+    --colorAccentSurface: var(--colorPaletteBrandPrimaryPrimary100);
     --colorAccentInk: var(--colorWhite);
     --colorCodeMark: var(--colorRed700);
     --pageBackground: var(--colorBackgroundPrimary);
@@ -198,7 +198,7 @@
     --leftNavInkSection: var(--colorInkSecondary);
     --leftNavElevation: none;
     --ctaButtonBackground: var(--colorTokensBackgroundSecondary100Bg);
-    --ctaButtonBackgroundHover: var(--colorAccentDark);
+    --ctaButtonBackgroundHover: var(--colorTokensBackgroundSecondary100Bg);
     --ctaButtonInk: var(--colorWhite);
     --spacingBlockAfter: 24px;
     --shortcutIconHeight: 48px;
@@ -5178,7 +5178,7 @@ ul>.block-children,ol>.block-children{
     margin-left:24px
 }
 #content-nav li.active>a{
-    color:var(--colorAccent);
+    color:var(--colorPaletteBrandPrimaryPrimary100);
     font-weight:500;
     position:relative
 }
